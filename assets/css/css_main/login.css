@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+section {
+    width: 1225px;
+    height: 753px;
+    border-radius: 24px;
+    display: flex;
+}
+
+.yes {
+    display: flex;
+    justify-content: center;
+    color: limegreen;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+.no {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+section .block {
+    width: 732px;
+    height: 753px;
+    background-color: #3949AB;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+section .login {
+    width: 486px;
+    height: 753px;
+    background-color: #fff;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.login strong {
+    font-size: 24px;
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    margin: 134px 0 0 0;
+    cursor: default;
+}
+
+.brand-wrapper {
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.info-wrapper {
+    width: 732px;
+    height: 753px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-wrapper strong {
+    font-size: 24px;
+    color: #fff;
+    margin: -50px 0 0 0;
+    cursor: default;
+}
+
+.info-wrapper small {
+    color: #fff;
+    cursor: default;
+}
+
+.donut-wrapper {
+    position: relative;
+}
+
+.donut1 {
+    position: absolute;
+    top: 350px;
+    right: 505px;
+}
+
+.donut2 {
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+
+
+.input-wrapper .login-inp, .input-wrapper .password-inp {
+    width: 358px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 0 0 0 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.input-pass-wrapper, .input-log-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.img-log {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+}
+
+.pass-log {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.input-pass-wrapper span {
+    position: absolute;
+    font-size: 28px;
+    left: 365px;
+    cursor: pointer;
+}
+
+span p {
+    margin: 12px 0 0 0;
+}
+
+.input-wrapper .password-inp {
+    margin: 16px 0 0 0;
+}
+
+.forgot {
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    margin: 10px 42px 0 0;
+    color: #6F74DD;
+    font-size: 14px;
+}
+
+.login-btn, .register-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn input {
+    width: 400px;
+    height: 40px;
+    background-color: #0022ff;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+}
+
+.or {
+    margin: 32px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+}
+
+.or::before {
+    margin: 0 5px 0 0;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #E6E9FA
+}
+
+.or::after {
+    margin: 0 0 0 5px;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #E6E9FA
+}
+
+.register-btn input {
+    width: 400px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #0022ff;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    margin: 32px 0 0 0;
+    color: #000;
+    font-weight: 600;
+}
